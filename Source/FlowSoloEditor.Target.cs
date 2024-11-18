@@ -7,6 +7,7 @@ public class FlowSoloEditorTarget : TargetRules
 	public FlowSoloEditorTarget(TargetInfo target) : base(target)
 	{
 		Type = TargetType.Editor;
+
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Latest;
 
