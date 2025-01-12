@@ -5,7 +5,7 @@ UFlowNode_SoloCheckpoint::UFlowNode_SoloCheckpoint(const FObjectInitializer& Obj
 	: Super(ObjectInitializer)
 {
 #if WITH_EDITOR
-	Category = TEXT("Utils");
+	Category = TEXT("Graph");
 #endif
 }
 

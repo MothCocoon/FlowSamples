@@ -6,7 +6,7 @@ UFlowNode_SpawnByActorReference::UFlowNode_SpawnByActorReference(const FObjectIn
 	: Super(ObjectInitializer)
 {
 #if WITH_EDITOR
-	Category = TEXT("World");
+	Category = TEXT("Actor");
 #endif
 
 	InputPins = {TEXT("Spawn"), TEXT("Despawn")};

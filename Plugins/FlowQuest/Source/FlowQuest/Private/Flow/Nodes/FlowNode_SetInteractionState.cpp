@@ -7,7 +7,7 @@ UFlowNode_SetInteractionState::UFlowNode_SetInteractionState(const FObjectInitia
 	: Super(ObjectInitializer)
 {
 #if WITH_EDITOR
-	Category = TEXT("World");
+	Category = TEXT("Actor");
 #endif
 
 	InputPins = { FFlowPin(TEXT("Enable")), FFlowPin(TEXT("Disable")) };
